@@ -20,6 +20,15 @@ int main() {
     tabuleiro[6][7] = '3'; // 7,H
     tabuleiro[7][7] = '3'; // 8,H
 
+    // Posicionar a pesças vesticais
+    tabuleiro[3][0] = '3'; // 4,A
+    tabuleiro[4][1] = '3'; // 5,B
+    tabuleiro[5][2] = '3'; // 6,C
+
+    tabuleiro[0][9] = '3'; // 1,J
+    tabuleiro[1][8] = '3'; // 2,I
+    tabuleiro[2][7] = '3'; // 3,H
+
 
      // Imprimir o cabeçalho do tabuleiro
     printf("TABULEIRO DE BATALHA NAVAL\n");
